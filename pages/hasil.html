@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="TES SDM adalah platform sederhana untuk menguji tingkat SDM kamu, apakah kamu termasuk golongan SDM Rendah atau SDM Tinggi"
+    />
+    <meta name="keywords" content="tes, SDM, SDM Rendah, SDM Tinggi" />
+    <meta name="author" content="Zidan IDz" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#f8f9fa" />
+    <meta
+      property="og:title"
+      content="TES SDM - Platform Uji Tingkat SDM Kamu"
+    />
+    <link
+      rel="shortcut icon"
+      href="/assets/img/mainIcon.png"
+      type="image/x-icon"
+    />
+    <title>TES SDM</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <link rel="stylesheet" href="/assets/css/primary.css" />
+    <link rel="stylesheet" href="/assets/css/secondary.css" />
+    <link rel="stylesheet" href="/assets/css/custom.css" />
+  </head>
+  <body>
+    <header class="bg-dark shadow">
+      <nav
+        class="container navbar px-3 d-flex justify-content-between align-items-center"
+      >
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+          <img
+            src="/assets/img/mainIcon.png"
+            alt="Logo"
+            width="30"
+            height="auto"
+          />
+          <span class="text-white fs-4 fw-bold">TES SDM</span>
+        </a>
+      </nav>
+    </header>
+
+    <main class="container my-5 mt-4 text-center">
+      <section id="resultSection">
+        <div class="bg-aqua border rounded border-dark shadow-sm p-4">
+          <h4 class="mb-4">Hasil Tes SDM:</h4>
+          <h1 id="userScore" class="display-4 text-dark"></h1>
+          <p class="text-muted fs-6c">*KKM: 70 Poin</p>
+          <div class="bg-archiv text-light py-1 pt-3 my-3">
+            <p class="fas fa-award fs-6">
+              <i class="text-archiv fs-6" id="userTitle"></i>
+            </p>
+          </div>
+          <p class="lead my-4" id="judgmentResult"></p>
+          <hr class="my-3" />
+          <div class="w-100 d-flex justify-content-center align-items-center">
+            <div class="w-50 text-start mt-3">
+              <p>ID Peserta:</p>
+              <p class="fw-bold" id="userID"></p>
+            </div>
+            <div class="w-50 text-end">
+              <img
+                src="/assets/img/zenzen.png"
+                alt="QR ke Beranda"
+                width="80"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="row gap-3 gap-md-4 gap-lg-5 mt-4 justify-content-center">
+          <div class="col-11 col-md-3">
+            <a class="btn btn-secondary w-100" id="btnScreenshot">
+              <i class="fas fa-camera"></i> Screenshot
+            </a>
+          </div>
+
+          <div class="col-11 col-md-3">
+            <a class="btn btn-danger w-100" onclick="retryTest()">
+              <i class="fas fa-trash"></i> Hapus Data & Ulangi Tes
+            </a>
+          </div>
+
+          <div class="col-11 col-md-3">
+            <a href="/index.html" class="btn btn-dark w-100">
+              <i class="fas fa-home"></i> Kembali ke Beranda
+            </a>
+          </div>
+        </div>
+
+        <hr class="my-5" />
+
+        <div class="text-center">
+          <a class="btn btn-tertiary my-1 mb-5" id="btnReview">
+            <i class="fas fa-eye"></i>
+            Tampilkan Review
+          </a>
+        </div>
+        <div id="reviewSection" class="text-start d-none"></div>
+      </section>
+
+      <section id="noDataSection" class="d-none py-5">
+        <div id="noDataMessage" class="bg-alert my-4 my-md-5">
+          <h3 class="mb-3"><i class="fas fa-warning"></i> Perhatian!</h3>
+          <p class="mb-4">
+            Tidak ada data hasil tes yang ditemukan. Silakan mengambil tes
+            terlebih dahulu!
+          </p>
+          <div class="d-flex justify-content-center gap-3">
+            <a href="/index.html" class="btn btn-secondary">
+              <i class="fas fa-home"></i> Kembali ke Beranda
+            </a>
+          </div>
+          <div class="text-center mt-4">
+            <small class="mt-4 text-secondary">
+              &copy; 2024 TES SDM. All Rights Reserved.
+            </small>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <figure>
+      <div
+        id="resetNotification"
+        class="alert alert-success alert-dismissible fade"
+        role="alert"
+        style="position: fixed; top: 20px; right: 20px; z-index: 1050"
+      >
+        Data tes sebelumnya berhasil dihapus!
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="alert"
+          aria-label="Close"
+        ></button>
+      </div>
+    </figure>
+
+    <script src="/assets/js/scoreReviewHandler.js"></script>
+  </body>
+</html>

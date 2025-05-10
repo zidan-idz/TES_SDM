@@ -1,0 +1,78 @@
+[
+  {
+    "id": 1,
+    "pertanyaan": "Apa ibukota Indonesia?",
+    "pilihan": ["Surabaya", "Jakarta", "Bandung", "Medan"],
+    "jawaban": 1
+  },
+  {
+    "id": 2,
+    "pertanyaan": "Siapa penemu lampu pijar?",
+    "pilihan": ["Edison", "Einstein", "Newton", "Tesla"],
+    "jawaban": 0
+  },
+  {
+    "id": 3,
+    "pertanyaan": "Berapa hasil dari 2 + 2 x 2?",
+    "pilihan": ["8", "6", "4", "10"],
+    "jawaban": 1
+  },
+  {
+    "id": 4,
+    "pertanyaan": "Manakah yang merupakan hewan mamalia?",
+    "pilihan": ["Buaya", "Ikan Paus", "Ayam", "Ular"],
+    "jawaban": 1
+  },
+  {
+    "id": 5,
+    "pertanyaan": "Apa warna primer dalam pencampuran cahaya?",
+    "pilihan": [
+      "Merah, Kuning, Biru",
+      "Merah, Hijau, Biru",
+      "Kuning, Cyan, Magenta",
+      "Hitam dan Putih"
+    ],
+    "jawaban": 1
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Berapa jumlah kaki laba-laba?",
+    "pilihan": ["6", "8", "10", "12"],
+    "jawaban": 1
+  },
+  {
+    "id": 7,
+    "pertanyaan": "Planet apa yang paling dekat dengan Matahari?",
+    "pilihan": ["Venus", "Merkurius", "Bumi", "Mars"],
+    "jawaban": 1
+  },
+  {
+    "id": 8,
+    "pertanyaan": "Siapa presiden pertama Indonesia?",
+    "pilihan": ["Soekarno", "Soeharto", "Habibie", "Gus Dur"],
+    "jawaban": 0
+  },
+  {
+    "id": 9,
+    "pertanyaan": "Air terdiri dari unsur apa saja?",
+    "pilihan": [
+      "Hidrogen dan Oksigen",
+      "Karbon dan Oksigen",
+      "Hidrogen dan Nitrogen",
+      "Oksigen dan Helium"
+    ],
+    "jawaban": 0
+  },
+  {
+    "id": 10,
+    "pertanyaan": "Apa simbol kimia dari emas?",
+    "pilihan": ["Ag", "Au", "Fe", "Cu"],
+    "jawaban": 1
+  },
+  {
+    "id": 11,
+    "pertanyaan": "Apa ibukota Jepang?",
+    "pilihan": ["Osaka", "Tokyo", "Kyoto", "Nagoya"],
+    "jawaban": 1
+  }
+]

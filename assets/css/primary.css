@@ -1,0 +1,21 @@
+html,
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #bbc0c9;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body.noscroll {
+  overflow: hidden;
+}
+
+@media (min-width: 992px) {
+  .px-lg-6 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+
+/* ################################################################# */
