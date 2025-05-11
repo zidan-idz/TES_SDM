@@ -74,5 +74,237 @@
     "pertanyaan": "Apa ibukota Jepang?",
     "pilihan": ["Osaka", "Tokyo", "Kyoto", "Nagoya"],
     "jawaban": 1
+  },
+  
+
+  {
+    "id": 12,
+    "pertanyaan": "Siapa tokoh utama dalam novel 'Laskar Pelangi'?",
+    "pilihan": ["Ikal", "Lintang", "Mahar", "Kucai"],
+    "jawaban": 0
+  },
+  {
+    "id": 13,
+    "pertanyaan": "Apa mata uang resmi Uni Eropa?",
+    "pilihan": ["Dollar", "Euro", "Poundsterling", "Franc"],
+    "jawaban": 1
+  },
+  {
+    "id": 14,
+    "pertanyaan": "Berapa sisi yang dimiliki segi enam?",
+    "pilihan": ["5", "6", "7", "8"],
+    "jawaban": 1
+  },
+  {
+    "id": 15,
+    "pertanyaan": "Apa nama alat untuk mengukur suhu?",
+    "pilihan": ["Barometer", "Termometer", "Higrometer", "Altimeter"],
+    "jawaban": 1
+  },
+  {
+    "id": 16,
+    "pertanyaan": "Benua apa yang terbesar di dunia?",
+    "pilihan": ["Afrika", "Asia", "Eropa", "Amerika"],
+    "jawaban": 1
+  },
+  {
+    "id": 17,
+    "pertanyaan": "Hewan apa yang dikenal memiliki leher panjang?",
+    "pilihan": ["Gajah", "Jerapah", "Kuda", "Sapi"],
+    "jawaban": 1
+  },
+  {
+    "id": 18,
+    "pertanyaan": "Siapa penulis lagu Indonesia Raya?",
+    "pilihan": ["WR Supratman", "Soekarno", "Moh Hatta", "Ismail Marzuki"],
+    "jawaban": 0
+  },
+  {
+    "id": 19,
+    "pertanyaan": "Organ apa yang memompa darah ke seluruh tubuh?",
+    "pilihan": ["Paru-paru", "Ginjal", "Hati", "Jantung"],
+    "jawaban": 3
+  },
+  {
+    "id": 20,
+    "pertanyaan": "Apa nama satelit alami Bumi?",
+    "pilihan": ["Bulan", "Mars", "Matahari", "Titan"],
+    "jawaban": 0
+  },
+  {
+    "id": 21,
+    "pertanyaan": "Bahasa resmi negara Brasil adalah?",
+    "pilihan": ["Spanyol", "Portugis", "Prancis", "Italia"],
+    "jawaban": 1
+  },
+  {
+    "id": 22,
+    "pertanyaan": "Berapa jumlah warna dalam pelangi?",
+    "pilihan": ["5", "6", "7", "8"],
+    "jawaban": 2
+  },
+  {
+    "id": 23,
+    "pertanyaan": "Apa nama zat yang memberi warna hijau pada daun?",
+    "pilihan": ["Kloroplas", "Klorofil", "Selulosa", "Pigmen"],
+    "jawaban": 1
+  },
+  {
+    "id": 24,
+    "pertanyaan": "Negara manakah yang memiliki Menara Eiffel?",
+    "pilihan": ["Italia", "Jerman", "Prancis", "Inggris"],
+    "jawaban": 2
+  },
+  {
+    "id": 25,
+    "pertanyaan": "Siapa ilmuwan terkenal dengan teori relativitas?",
+    "pilihan": ["Einstein", "Galileo", "Newton", "Bohr"],
+    "jawaban": 0
+  },
+  {
+    "id": 26,
+    "pertanyaan": "Apa alat musik tradisional dari Jawa Barat?",
+    "pilihan": ["Angklung", "Gamelan", "Sasando", "Kolintang"],
+    "jawaban": 0
+  },
+  {
+    "id": 27,
+    "pertanyaan": "Apa nama hewan tercepat di darat?",
+    "pilihan": ["Kuda", "Cheetah", "Singa", "Harimau"],
+    "jawaban": 1
+  },
+  {
+    "id": 28,
+    "pertanyaan": "Apa lambang unsur kimia dari air?",
+    "pilihan": ["O2", "H2O", "CO2", "HO"],
+    "jawaban": 1
+  },
+  {
+    "id": 29,
+    "pertanyaan": "Manakah planet terbesar dalam tata surya?",
+    "pilihan": ["Saturnus", "Bumi", "Uranus", "Jupiter"],
+    "jawaban": 3
+  },
+  {
+    "id": 30,
+    "pertanyaan": "Siapa yang menciptakan teori gravitasi?",
+    "pilihan": ["Einstein", "Newton", "Archimedes", "Galileo"],
+    "jawaban": 1
+  }
+  
+
+  {
+    "id": 12,
+    "pertanyaan": "Siapa tokoh utama dalam novel 'Laskar Pelangi'?",
+    "pilihan": ["Ikal", "Lintang", "Mahar", "Kucai"],
+    "jawaban": 0
+  },
+  {
+    "id": 13,
+    "pertanyaan": "Apa mata uang resmi Uni Eropa?",
+    "pilihan": ["Dollar", "Euro", "Poundsterling", "Franc"],
+    "jawaban": 1
+  },
+  {
+    "id": 14,
+    "pertanyaan": "Berapa sisi yang dimiliki segi enam?",
+    "pilihan": ["5", "6", "7", "8"],
+    "jawaban": 1
+  },
+  {
+    "id": 15,
+    "pertanyaan": "Apa nama alat untuk mengukur suhu?",
+    "pilihan": ["Barometer", "Termometer", "Higrometer", "Altimeter"],
+    "jawaban": 1
+  },
+  {
+    "id": 16,
+    "pertanyaan": "Benua apa yang terbesar di dunia?",
+    "pilihan": ["Afrika", "Asia", "Eropa", "Amerika"],
+    "jawaban": 1
+  },
+  {
+    "id": 17,
+    "pertanyaan": "Hewan apa yang dikenal memiliki leher panjang?",
+    "pilihan": ["Gajah", "Jerapah", "Kuda", "Sapi"],
+    "jawaban": 1
+  },
+  {
+    "id": 18,
+    "pertanyaan": "Siapa penulis lagu Indonesia Raya?",
+    "pilihan": ["WR Supratman", "Soekarno", "Moh Hatta", "Ismail Marzuki"],
+    "jawaban": 0
+  },
+  {
+    "id": 19,
+    "pertanyaan": "Organ apa yang memompa darah ke seluruh tubuh?",
+    "pilihan": ["Paru-paru", "Ginjal", "Hati", "Jantung"],
+    "jawaban": 3
+  },
+  {
+    "id": 20,
+    "pertanyaan": "Apa nama satelit alami Bumi?",
+    "pilihan": ["Bulan", "Mars", "Matahari", "Titan"],
+    "jawaban": 0
+  },
+  {
+    "id": 21,
+    "pertanyaan": "Bahasa resmi negara Brasil adalah?",
+    "pilihan": ["Spanyol", "Portugis", "Prancis", "Italia"],
+    "jawaban": 1
+  },
+  {
+    "id": 22,
+    "pertanyaan": "Berapa jumlah warna dalam pelangi?",
+    "pilihan": ["5", "6", "7", "8"],
+    "jawaban": 2
+  },
+  {
+    "id": 23,
+    "pertanyaan": "Apa nama zat yang memberi warna hijau pada daun?",
+    "pilihan": ["Kloroplas", "Klorofil", "Selulosa", "Pigmen"],
+    "jawaban": 1
+  },
+  {
+    "id": 24,
+    "pertanyaan": "Negara manakah yang memiliki Menara Eiffel?",
+    "pilihan": ["Italia", "Jerman", "Prancis", "Inggris"],
+    "jawaban": 2
+  },
+  {
+    "id": 25,
+    "pertanyaan": "Siapa ilmuwan terkenal dengan teori relativitas?",
+    "pilihan": ["Einstein", "Galileo", "Newton", "Bohr"],
+    "jawaban": 0
+  },
+  {
+    "id": 26,
+    "pertanyaan": "Apa alat musik tradisional dari Jawa Barat?",
+    "pilihan": ["Angklung", "Gamelan", "Sasando", "Kolintang"],
+    "jawaban": 0
+  },
+  {
+    "id": 27,
+    "pertanyaan": "Apa nama hewan tercepat di darat?",
+    "pilihan": ["Kuda", "Cheetah", "Singa", "Harimau"],
+    "jawaban": 1
+  },
+  {
+    "id": 28,
+    "pertanyaan": "Apa lambang unsur kimia dari air?",
+    "pilihan": ["O2", "H2O", "CO2", "HO"],
+    "jawaban": 1
+  },
+  {
+    "id": 29,
+    "pertanyaan": "Manakah planet terbesar dalam tata surya?",
+    "pilihan": ["Saturnus", "Bumi", "Uranus", "Jupiter"],
+    "jawaban": 3
+  },
+  {
+    "id": 30,
+    "pertanyaan": "Siapa yang menciptakan teori gravitasi?",
+    "pilihan": ["Einstein", "Newton", "Archimedes", "Galileo"],
+    "jawaban": 1
   }
 ]
