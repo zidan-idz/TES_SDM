@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
   addNoScrollStyle();
 
   // Konfigurasi tes
-  const totalTime = 920; // Total waktu pengerjaan tes dalam detik
+  const totalTime = 120; // Total waktu pengerjaan tes dalam detik
   const maxQuestions = 10; // Jumlah maksimal pertanyaan yang ditampilkan
 
   // Inisialisasi variabel state
