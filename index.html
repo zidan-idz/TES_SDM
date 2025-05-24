@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="TES SDM adalah platform sederhana untuk menguji tingkat SDM kamu, apakah kamu termasuk golongan SDM Rendah atau SDM Tinggi"
+    />
+    <meta name="keywords" content="tes, SDM, SDM Rendah, SDM Tinggi" />
+    <meta name="author" content="Zidan IDz" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#f8f9fa" />
+    <meta
+      property="og:title"
+      content="TES SDM - Platform Uji Tingkat SDM Kamu"
+    />
+    <link
+      rel="shortcut icon"
+      href="/assets/img/mainIcon.png"
+      type="image/x-icon"
+    />
+    <title>TES SDM</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/primary.css" />
+    <link rel="stylesheet" href="/assets/css/secondary.css" />
+    <link rel="stylesheet" href="/assets/css/custom.css" />
+  </head>
+  <body>
+    <header class="bg-dark shadow" data-aos="fade-down" data-aos-duration="800">
+      <nav
+        class="container navbar px-3 px-md-5 px-lg-6 d-flex justify-content-between align-items-center"
+      >
+        <div class="d-flex align-items-center gap-2">
+          <a
+            class="navbar-brand d-flex align-items-center gap-2"
+            href="#"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+          >
+            <img
+              src="/assets/img/mainIcon.png"
+              alt="Logo"
+              width="30"
+              height="auto"
+            />
+            <span class="text-white fs-4 fw-bold">TES SDM</span>
+          </a>
+        </div>
+
+        <button
+          class="btn btn-outline-light btn-md"
+          data-aos="zoom-out"
+          data-aos-delay="200"
+          onclick="copiedLink()"
+        >
+          <span class="fas fa-share"></span>
+        </button>
+      </nav>
+    </header>
+
+    <main data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+      <div class="container my-1 my-md-3 my-lg-5 p-3 px-md-5 px-lg-6">
+        <section class="border border-1 border-dark rounded p-4 shadow-sm">
+          <div
+            class="row text-center mt-5"
+            data-aos="zoom-out"
+            data-aos-delay="300"
+          >
+            <div class="col-12">
+              <h1 class="display-6 fw-medium">Selamat Datang di TES SDM</h1>
+            </div>
+            <div class="col-12 mt-2">
+              <p class="fs-5">
+                Platform sederhana untuk menguji tingkat "SDM" kamu, apakah kamu
+                termasuk golongan "SDM Rendah" atau "SDM Tinggi".
+                <a
+                  class="text-secondary text-decoration-none"
+                  href="/pages/about.html"
+                  >Info Lebih Lanjut</a
+                >
+              </p>
+            </div>
+            <div class="col-12 mt-3">
+              <button
+                class="btn btn-dark btn-lg fw-medium"
+                id="startNow"
+                disabled
+                href="/pages/quiz.html"
+                onclick="window.location.href='/pages/quiz.html'"
+              >
+                <span class="fas fa-quote-left fs-2"></span>Mulai Tes!
+              </button>
+            </div>
+            <div class="col-12 mt-4">
+              <small class="text-muted">
+                *Ceklis Seluruh Persyaratan Terlebih Dahulu
+              </small>
+            </div>
+          </div>
+        </section>
+        <section class="mt-4 d-grid gap-1">
+          <h5 class="mb-3">Syarat & Ketentuan Tes SDM</h5>
+          <div class="form-check">
+            <input class="form-check-input terms" type="checkbox" id="terms1" />
+            <label class="form-check-label" for="terms1"
+              >Saya bersedia mengisi tes ini dengan jujur.</label
+            >
+          </div>
+          <div class="form-check">
+            <input class="form-check-input terms" type="checkbox" id="terms2" />
+            <label class="form-check-label" for="terms2"
+              >Saya tidak akan keluar dari sesi sebelum tes selesai.</label
+            >
+          </div>
+          <div class="form-check">
+            <input class="form-check-input terms" type="checkbox" id="terms3" />
+            <label class="form-check-label" for="terms3"
+              >Saya bersedia bahwa data hasil tes saya dapat digunakan untuk
+              keperluan statistik pada Web.
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input terms" type="checkbox" id="terms4" />
+            <label class="form-check-label" for="terms4"
+              >Saya tidak baperan dan siap menerima hasil sebagai "SDM Rendah"
+              ataupun "SDM Tinggi".</label
+            >
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="acceptAll" />
+            <label class="form-check-label" for="acceptAll">
+              Setujui seluruh Syarat & Ketentuan
+            </label>
+          </div>
+        </section>
+        <hr class="text-black" />
+
+        <section
+          class="my-2 text-center border border-1 border-dark rounded p-4"
+          id="statsSc"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+          data-aos-delay="100"
+        >
+          <h5 class="mb-4 fw-semibold text-dark">
+            <span class="fas fa-chart-line text-dark"></span> Statistik Pengguna
+            TES SDM
+          </h5>
+          <div class="row justify-content-center">
+            <div
+              class="col-md-4"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+            >
+              <div class="bg-dark text-white rounded shadow-sm p-3 mb-3">
+                <h6>Total Peserta</h6>
+                <p class="fs-4 fw-bold mb-0" id="totalCount">0</p>
+              </div>
+            </div>
+            <div
+              class="col-md-4"
+              data-aos="zoom-out"
+              data-aos-duration="1000"
+              data-aos-delay="300"
+            >
+              <div class="bg-dark text-white rounded shadow-sm p-3 mb-3">
+                <h6>SDM Tinggi</h6>
+                <p class="fs-4 text-success fw-bold mb-0" id="sdmTinggiCount">
+                  0%
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-md-4"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
+              <div class="bg-dark text-white rounded shadow-sm p-3 mb-3">
+                <h6>SDM Rendah</h6>
+                <p class="fs-4 text-danger fw-bold mb-0" id="sdmRendahCount">
+                  0%
+                </p>
+              </div>
+            </div>
+          </div>
+          <small class="text-muted"
+            >*Data diambil dari semua peserta yang berkontribusi</small
+          >
+        </section>
+        <hr class="text-black" />
+        <section>
+          <div class="mt-5">
+            <div>
+              <h2 class="mb-4">Kirim Komentar</h2>
+            </div>
+            <div class="border rounded-3 p-4 shadow-sm bg-dark">
+              <form id="comForm">
+                <div class="mb-3">
+                  <label for="nameNotice" class="form-label text-aqua"
+                    >Nama</label
+                  >
+                  <input
+                    type="text"
+                    id="nameNotice"
+                    class="form-control bg-aqua"
+                    placeholder="Masukkan nama Anda"
+                    required
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label for="comNotice" class="form-label text-aqua"
+                    >Komentar</label
+                  >
+                  <textarea
+                    id="comNotice"
+                    class="form-control bg-aqua"
+                    rows="5"
+                    placeholder="Tulis komentar Anda di sini"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-secondary">Kirim</button>
+                <div
+                  id="spamNotice"
+                  class="form-text text-danger mt-2"
+                  style="display: none"
+                >
+                  Tunggu 10 detik sebelum mengirim komentar lagi.
+                </div>
+                <div
+                  id="inputNotice"
+                  class="form-text text-danger mt-2"
+                  style="display: none"
+                >
+                  Hanya huruf dan angka yang diizinkan.
+                </div>
+              </form>
+            </div>
+            <hr class="mt-5" />
+            <h3 class="mb-3">Komentar Terbaru:</h3>
+            <div id="comList" class="row row-cols-1 g-3"></div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer
+      class="bg-dark text-white pt-5 pb-4 mt-5"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+      <hr />
+      <div class="container px-4 px-md-0 px-lg-0 text-center text-md-start">
+        <div class="row text-center text-md-start">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 text-center">
+            <div class="d-flex align-items-center gap-2">
+              <img
+                src="/assets/img/mainIcon.png"
+                style="width: 40px; height: auto"
+                alt="Icon"
+              />
+              <h5 class="text-white fw-bold mb-0 font-weight-bold">TES SDM</h5>
+            </div>
+            <div class="text-start mt-3">
+              <p>Platform Tes Golongan SDM Rendah atau SDM Tinggi</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-4 mt-lg-3">
+            <div class="text-start">
+              <h5 class="text-white mb-4 font-weight-bold text-">
+                Ikuti Saya:
+              </h5>
+              <a
+                href="https://github.com/zidan-idz"
+                class="fs-4 text-white mx-2"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="https://web.facebook.com/muhammadraid.zaidani/"
+                class="fs-4 text-white mx-2"
+                ><i class="fab fa-facebook-f mx-2"></i
+              ></a>
+              <a href="https://t.me/Zidan_IDz" class="fs-4 text-white mx-2"
+                ><i class="fab fa-telegram"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/zidan_idz/"
+                class="fs-4 text-white mx-2"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <hr class="my-4" />
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p class="mb-3 fs-6">&copy; 2024 TES SDM. All Rights Reserved.</p>
+            <p class="text-grey fs-6">
+              Made with <i class="fas fa-heart text-danger"></i> by Zidan IDz
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <figure>
+      <div id="ImportantNotice" class="noticeOverlay">
+        <div class="noticeContent" data-aos="fade-down" data-aos-duration="600">
+          <h4 class="fs-2 fw-bold my-3">
+            <span class="fa fa-warning"></span> Peringatan!
+          </h4>
+          <p class="fs-6 fw-normal my-3">
+            Web ini dibuat untuk hiburan semata dan bukan untuk menilai atau
+            menghakimi. Hasil tes tidak mencerminkan kualitas SDM secara akurat.
+            <a
+              class="text-secondary text-decoration-none"
+              href="/pages/about.html"
+              >Info Lebih Lanjut</a
+            >
+          </p>
+          <div class="text-center">
+            <button onclick="understand()" class="btn btn-dark mt-3">
+              Oke,Saya Paham
+            </button>
+          </div>
+          <div class="text-center mt-3 mb-2">
+            <small class="mt-4 text-muted">
+              &copy; 2024 TES SDM. All Rights Reserved.
+            </small>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <button id="scrollButton" class="btn btn-goldcode scroll-btn">
+            <i class="fa fa-arrow-circle-up"></i>
+          </button>
+        </div>
+      </div>
+    </figure>
+
+    <script src="/assets/js/main.js"></script>
+    <script type="module" src="/assets/js/comHandler.js"></script>
+    <script src="/assets/js/popupConsentHandler.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="/assets/js/animationHandler.js"></script>
+  </body>
+</html>

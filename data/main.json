@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "pertanyaan": "Apa ibukota Indonesia?",
+    "pilihan": ["Surabaya", "Jakarta", "Bandung", "Medan"],
+    "jawaban": 1
+  },
+  {
+    "id": 2,
+    "pertanyaan": "Siapa penemu lampu pijar?",
+    "pilihan": ["Edison", "Einstein", "Newton", "Tesla"],
+    "jawaban": 0
+  },
+  {
+    "id": 3,
+    "pertanyaan": "Berapa hasil dari 2 + 2 x 2?",
+    "pilihan": ["8", "6", "4", "10"],
+    "jawaban": 1
+  },
+  {
+    "id": 4,
+    "pertanyaan": "Manakah yang merupakan hewan mamalia?",
+    "pilihan": ["Buaya", "Ikan Paus", "Ayam", "Ular"],
+    "jawaban": 1
+  },
+  {
+    "id": 5,
+    "pertanyaan": "Apa warna primer dalam pencampuran cahaya?",
+    "pilihan": ["Merah, Kuning, Biru", "Merah, Hijau, Biru", "Kuning, Cyan, Magenta", "Hitam dan Putih"],
+    "jawaban": 1
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Berapa jumlah kaki laba-laba?",
+    "pilihan": ["6", "8", "10", "12"],
+    "jawaban": 1
+  },
+  {
+    "id": 7,
+    "pertanyaan": "Planet apa yang paling dekat dengan Matahari?",
+    "pilihan": ["Venus", "Merkurius", "Bumi", "Mars"],
+    "jawaban": 1
+  },
+  {
+    "id": 8,
+    "pertanyaan": "Siapa presiden pertama Indonesia?",
+    "pilihan": ["Soekarno", "Soeharto", "Habibie", "Gus Dur"],
+    "jawaban": 0
+  },
+  {
+    "id": 9,
+    "pertanyaan": "Air terdiri dari unsur apa saja?",
+    "pilihan": ["Hidrogen dan Oksigen", "Karbon dan Oksigen", "Hidrogen dan Nitrogen", "Oksigen dan Helium"],
+    "jawaban": 0
+  },
+  {
+    "id": 10,
+    "pertanyaan": "Apa simbol kimia dari emas?",
+    "pilihan": ["Ag", "Au", "Fe", "Cu"],
+    "jawaban": 1
+  },
+  {
+    "id": 11,
+    "pertanyaan": "Apa ibukota Jepang?",
+    "pilihan": ["Osaka", "Tokyo", "Kyoto", "Nagoya"],
+    "jawaban": 1
+  },
+  {
+    "id": 12,
+    "pertanyaan": "Siapa yang menulis naskah proklamasi Indonesia?",
+    "pilihan": ["Soekarno dan Hatta", "Ahmad Subardjo", "Sutan Sjahrir", "Moh. Yamin"],
+    "jawaban": 0
+  },
+  {
+    "id": 13,
+    "pertanyaan": "Berapa sisi segitiga?",
+    "pilihan": ["3", "4", "5", "6"],
+    "jawaban": 0
+  },
+  {
+    "id": 14,
+    "pertanyaan": "Apa lambang dari bilangan pi?",
+    "pilihan": ["π", "θ", "α", "σ"],
+    "jawaban": 0
+  },
+  {
+    "id": 15,
+    "pertanyaan": "Negara mana yang terkenal dengan menara Eiffel?",
+    "pilihan": ["Italia", "Prancis", "Jerman", "Spanyol"],
+    "jawaban": 1
+  },
+  {
+    "id": 16,
+    "pertanyaan": "Binatang apa yang identik dengan Australia?",
+    "pilihan": ["Gajah", "Kanguru", "Harimau", "Zebra"],
+    "jawaban": 1
+  },
+  {
+    "id": 17,
+    "pertanyaan": "Apa nama planet terbesar di tata surya?",
+    "pilihan": ["Bumi", "Saturnus", "Mars", "Jupiter"],
+    "jawaban": 3
+  },
+  {
+    "id": 18,
+    "pertanyaan": "Benda langit mana yang memantulkan cahaya matahari ke bumi?",
+    "pilihan": ["Matahari", "Bulan", "Bintang", "Planet"],
+    "jawaban": 1
+  },
+  {
+    "id": 19,
+    "pertanyaan": "Apa satuan utama dari massa dalam SI?",
+    "pilihan": ["Pound", "Ons", "Kilogram", "Gram"],
+    "jawaban": 2
+  },
+  {
+    "id": 20,
+    "pertanyaan": "Berapa jumlah provinsi di Indonesia (per 2024)?",
+    "pilihan": ["34", "35", "37", "38"],
+    "jawaban": 3
+  },
+  {
+    "id": 21,
+    "pertanyaan": "Siapa penulis novel 'Laskar Pelangi'?",
+    "pilihan": ["Andrea Hirata", "Tere Liye", "Habiburrahman El Shirazy", "Dee Lestari"],
+    "jawaban": 0
+  },
+  {
+    "id": 22,
+    "pertanyaan": "Apa nama alat untuk mengukur suhu?",
+    "pilihan": ["Barometer", "Termometer", "Hidrometer", "Altimeter"],
+    "jawaban": 1
+  },
+  {
+    "id": 23,
+    "pertanyaan": "Apa kepanjangan dari CPU?",
+    "pilihan": ["Central Power Unit", "Central Processing Unit", "Computer Personal Unit", "Control Panel Unit"],
+    "jawaban": 1
+  },
+  {
+    "id": 24,
+    "pertanyaan": "Siapa pelukis terkenal asal Spanyol dengan gaya kubisme?",
+    "pilihan": ["Da Vinci", "Picasso", "Van Gogh", "Rembrandt"],
+    "jawaban": 1
+  },
+  {
+    "id": 25,
+    "pertanyaan": "Berapakah hasil dari 10 ÷ 2 + 3?",
+    "pilihan": ["8", "6", "5", "10"],
+    "jawaban": 0
+  },
+  {
+    "id": 26,
+    "pertanyaan": "Apa mata uang Jepang?",
+    "pilihan": ["Yuan", "Yen", "Won", "Ringgit"],
+    "jawaban": 1
+  },
+  {
+    "id": 27,
+    "pertanyaan": "Di manakah Candi Borobudur berada?",
+    "pilihan": ["Bali", "Jawa Timur", "Jawa Tengah", "Sumatera"],
+    "jawaban": 2
+  },
+  {
+    "id": 28,
+    "pertanyaan": "Apa nama samudra terbesar di dunia?",
+    "pilihan": ["Atlantik", "Arktik", "Hindia", "Pasifik"],
+    "jawaban": 3
+  },
+  {
+    "id": 29,
+    "pertanyaan": "Manakah yang merupakan jenis gaya tarik bumi?",
+    "pilihan": ["Magnet", "Gravitasi", "Listrik", "Gesekan"],
+    "jawaban": 1
+  },
+  {
+    "id": 30,
+    "pertanyaan": "Apa nama alat musik tradisional dari Jawa Barat?",
+    "pilihan": ["Angklung", "Gamelan", "Sasando", "Tifa"],
+    "jawaban": 0
+  }
+]

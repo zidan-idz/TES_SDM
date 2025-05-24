@@ -1,0 +1,89 @@
+.bg-dark {
+  background-color: #2e2e2e !important;
+}
+
+.bg-cloud {
+  background-color: #00000025 !important;
+}
+
+.bg-aqua {
+  background-color: #bbc0c9;
+}
+
+.bg-haze {
+  background-color: #f0f0f056;
+}
+
+.border-dark {
+  border-color: #2e2e2e !important;
+}
+
+.btn-dark {
+  color: white;
+  background-color: #2e2e2e;
+  border-color: #2e2e2e;
+  transition: all 0.3s ease-in-out;
+}
+.btn-dark:hover {
+  color: #2e2e2e;
+  background-color: transparent;
+  border-color: #1a1a1a;
+  transform: scale(1.1);
+}
+
+/* Custom style for btn-danger */
+.btn-danger {
+  color: white;
+  background-color: #dc3545; /* Default danger color */
+  border-color: #dc3545;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-danger:hover {
+  color: #dc3545;
+  background-color: transparent;
+  border-color: #b02a37; /* Darker shade of red */
+  transform: scale(1.1);
+}
+
+/* Custom style for btn-secondary */
+.btn-secondary {
+  color: white;
+  background-color: #6c757d; /* Default secondary color */
+  border-color: #6c757d;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-secondary:hover {
+  color: #6c757d;
+  background-color: transparent;
+  border-color: #5a6268; /* Darker shade of gray */
+  transform: scale(1.1);
+}
+
+/* Custom style for btn-tertiary */
+.btn-tertiary {
+  color: #2e2e2e;
+  background-color: #adb5bd; /* Warna abu-abu terang */
+  border-color: #adb5bd;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-tertiary:hover {
+  color: #858585;
+  background-color: transparent;
+  border-color: #8a929b; /* Warna abu-abu lebih gelap */
+  transform: scale(1.1);
+}
+
+.text-grey {
+  color: #929292;
+}
+
+.text-aqua {
+  color: #bbc0c9;
+}
+
+.fs-6c {
+  font-size: 0.8rem !important;
+}
