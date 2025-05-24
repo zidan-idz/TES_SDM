@@ -40,7 +40,7 @@ window.onload = function () {
 
   const lastShown = localStorage.getItem("NtcLastShown");
   const now = Date.now();
-  const timerShow = 1 * 60 * 1000; // 1 menit dalam milidetik
+  const timerShow = 5 * 60 * 1000; // 1 menit dalam milidetik
 
   if (!lastShown || now - lastShown > timerShow) {
     NoticeMSG.style.display = "flex";
